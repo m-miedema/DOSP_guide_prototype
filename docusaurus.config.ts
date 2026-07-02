@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://m-miedema.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/DOSP_website_prototype/',
+  baseUrl: '/DOSP_guide_prototype/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'm-miedema', // Usually your GitHub org/user name.
-  projectName: 'DOSP_website_prototype', // Usually your repo name.
+  projectName: 'DOSP_guide_prototype', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
