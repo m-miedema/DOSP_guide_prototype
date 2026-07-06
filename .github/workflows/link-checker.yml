@@ -27,7 +27,7 @@ jobs:
           fail: false # Prevents the workflow from failing when it finds a broken link
 
       - name: Create Issue From Broken Links
-        if: steps:lychee.outputs.exit_code != 0 # Only runs if lychee detected broken links
+        if: steps.lychee.outputs.exit_code != 0 # Only runs if lychee detected broken links
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: "🔗 Broken Links Detected"
