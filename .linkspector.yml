@@ -1,0 +1,11 @@
+# .linkspector.yml
+dirs:
+  - docs # Change this to the folder where your Markdown files are
+fileExtensions:
+  - md
+  - mdx
+# This forces the tool to treat all links with this as the root for relative paths
+baseUrl: "/" 
+# You can ignore specific patterns if needed
+ignorePatterns:
+  - pattern: "http://localhost:.*"
