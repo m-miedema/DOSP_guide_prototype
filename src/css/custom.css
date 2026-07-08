@@ -41,3 +41,10 @@
 .theme-admonition-guide .admonitionHeading_Gvgb {
   color: rgb(25, 130, 106);
 }
+
+/* make sure header isn't cutting off callout text */
+.callout-anchor {
+  display: block; 
+  content: "";
+  scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 2rem);
+}
